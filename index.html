@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>XI-RPL 1</title>
+	<meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+	<meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+	<meta name="author" content="Author for Tutorial-webdesign.com" />
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+</head>
+<body>
+	
+	<header>
+		<form>
+			<input class="search" type="text" placeholder=" Search ..." />
+		</form>
+		<div style="margin-right : 20px ;" class="background-logo">
+			<a href="https://www.facebook.com/fachrizalzg?ref=ts&fref=ts"><img src="img/fb.jpg" />
+		</div>
+		<div class="background-logo">
+			<a href="https://twitter.com/Fchrzl_Gunawan"><img src="img/tw.jpg" />
+		</div>
+		<div class="background-logo">
+			<a href="#"><img src="img/gmail.jpg" />
+		</div>
+
+		<a style="text-decoration:none ;" href="index.html"><h1>XI-<span>RPL 1</span></h1></a>
+
+	</header>
+	<div class="main">
+		
+		<section class="page one">
+			<div id="smkn5">
+				<div id="font">
+					<h1>SMKN 5 Tangerang</h1>
+					<h3>SMKN 5 Tangerang adalah sekolah berbasis IT yang didirikan pada tahun 2007. SMKN 5 Tangerang merupakan salah satu Sekolah Menengah Kejuruan Negeri yang ada di Kota Tangerang Provinsi Banten, Indonesia.</h3>
+				</div>
+				<img src="img/smkn5.jpg">
+				</img>
+			</div>
+		</section>
+		
+		<section class="page two">
+				<h1 style="font-family : euphemia ; text-align : center ; margin-top : 50px ;">Profil Wali Kelas</h1>
+				<img class="busanah" src="img/busanah.jpg">
+				</img>
+				<div class="about">
+					<h3 style="font-family : euphemia ;">Sannah Ifa Purba atau yang biasa dipanggil "Ibu Sanah" Adalah seorang guru SMKN Negeri 5 kota Tangerang. Ia adalah wali kelas dari XI-RPL 1, dan ia mengajar mata pelajaran Kewirausahaan (KWH). Bu sanah ini terkenal dengan sebagai guru yang selalu galak dan cerewet. Dia selalu bersikap tegas agar murid-murid nya menurut dan patuh terhadap dirinya. Dan dengan sikap nya yang galak dan tegas ini menjadi ciri khas Bu Sanah.</h3>
+				</div>
+		</section>
+		
+		<section class="page three">
+			<h1 style="font-family : euphemia ; text-align : center ; margin-top : 25px ;">Profil Kelas</h1>
+			<img class="kelas" style="margin-top : 25px ; margin-left : 50px ;" src="img/1.jpg"></img>
+			<img class="kelas" style="margin-top : 25px ;" src="img/2.jpg"></img>
+			<img class="kelas" style="margin-top : 25px ;" src="img/mus.jpg"></img>
+			<img class="kelas" style="margin-top : 25px ;" src="img/rozak.jpg"></img>
+			<img class="kelas" style="margin-left : 50px ;" src="img/faldi.jpg"></img>
+			<img class="kelas" src="img/charlie.jpg"></img>
+			<img class="kelas" src="img/3.jpg"></img>
+			<img class="kelas" style="margin-bottom : 50px ;" src="img/4.jpg"></img>
+			<div id="footer">
+			</div>
+			<h4 style="font-family : euphemia ; float : right ; margin-right : 10px ;">Copyright © 2016. Design By Fachrizal Gunawan. All Right Reserved.</h4>
+		</section>
+		
+	</div>
+
+	<script type="text/javascript">
+	$(".main").onepage_scroll({
+		sectionContainer: "section",
+	});
+	</script>
+
+</body>
+</html>
